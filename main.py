@@ -169,6 +169,8 @@ def main():
 
 if __name__ == "__main__":
 
+    print("____Start_Program___")
+
     if MyModule.inc_ws2812:
         #print("WS2812 -> Load-Module")
         import module_ws2812_v2 as MyWS2812         # Modul WS2812  -> WS2812-Ansteuerung
@@ -203,6 +205,6 @@ if __name__ == "__main__":
     main()      # Start Main $$$
 
 # Normal sollte das Programm hier nie ankommen !
-print("___End of Programm___ !!!")
+print("___End_of_Programm___!!!")
 
 # ##############################################################################
