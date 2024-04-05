@@ -169,7 +169,7 @@ def main():
 
 if __name__ == "__main__":
 
-    print("____Start_Program___")
+    print("___Start_Program___")
 
     if MyModule.inc_ws2812:
         #print("WS2812 -> Load-Module")
