@@ -1,7 +1,7 @@
 ######################################################
 ### Main-Program                                   ###
-### Projekt: Heinrich-Hertz-SAT                    ###
-### Version: 1.02                                  ###
+### Projekt: H2Electra                             ###
+### Version: 0.99                                  ###
 ######################################################
 from machine import Pin, Timer                              # RaspberryPi Pico2040 -> Hardware-Library
 from module_init import Global_Module as MyModule
@@ -165,7 +165,6 @@ def main():
 # ###############################################################################
 # ### Main                                                                    ###
 # ###############################################################################
-
 
 if __name__ == "__main__":
 
