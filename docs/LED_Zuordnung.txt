@@ -1,3 +1,8 @@
 ###############################################################################
 
+Ausgang 1   Rumpf vorne links
+Ausgang 2   Rumpf vorne rechts
+Ausgang 3   Rumpf hinten links
+Ausgang 4   Rumpf hinten rechts
+
 ###############################################################################
