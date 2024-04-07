@@ -1,8 +1,15 @@
 ###############################################################################
 
-Ausgang 1   Rumpf vorne links
-Ausgang 2   Rumpf vorne rechts
-Ausgang 3   Rumpf hinten links
-Ausgang 4   Rumpf hinten rechts
+Ausgang:
+
+1   Rumpf vorne links
+2   Rumpf vorne rechts
+3   Rumpf hinten links
+4   Rumpf hinten rechts
+
+5   Bedientablet 1. Ring
+6   Bedientablet 2. Ring
+7   Bedientablet 3. Ring
+8   Bedientablet 4. Ring
 
 ###############################################################################
