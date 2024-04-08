@@ -4,7 +4,7 @@
 ### Version: 0.99                                  ###
 ######################################################
 from machine import Pin, Timer                              # RaspberryPi Pico2040 -> Hardware-Library
-from libs.module_init import Global_Module as MyModule
+from init_global import Global_Module as MyModule
 import time
 
 pix_array_01 = [11]

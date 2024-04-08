@@ -10,8 +10,9 @@ class Global_Module:
     inc_decoder         = True
     inc_serial          = True
 
-class Global_Colors:
+
 # -----------------------------------------------------------------------------
+class Global_Colors:
 
     color_def           = (  5,  0,  0)
     color_off           = (  0,  0,  0)
