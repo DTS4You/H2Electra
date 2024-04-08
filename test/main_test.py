@@ -7,28 +7,6 @@ from machine import Pin, Timer                              # RaspberryPi Pico20
 from init_global import Global_Module as MyModule
 import time
 
-pix_array_01 = [11]
-pix_array_02 = [10]
-pix_array_03 = [ 6]
-pix_array_06 = [ 3, 4]
-pix_array_04 = [ 2 ,5]
-pix_array_05 = [ 0, 1]
-pix_array_07 = [ 7, 8]
-pix_array_08 = [ 9]
-pix_array_09 = [16, 24]
-pix_array_10 = [19]
-pix_array_11 = [17, 25]
-pix_array_12 = [29, 30]
-pix_array_13 = [28]
-pix_array_14 = [14, 22]
-pix_array_15 = [12, 13, 20, 21]
-pix_array_16 = [31, 32]
-
-obj_offset = 0          # Offset bei Zählung ab 1 = -1
-
-def blink_func():
-    MyWS2812.do_blink()
-
 
 # ------------------------------------------------------------------------------
 # --- Main Function                                                          ---

@@ -6,7 +6,7 @@
 class Global_Module:
     
     inc_debug_led       = True
-    inc_ws2812_init     = True
+    inc_ws2812          = True
     inc_decoder         = True
     inc_serial          = True
 
@@ -34,7 +34,7 @@ def main():
     print(mg.color_def)
     print(mg.color_off)
     if Global_Module.inc_debug_led:
-        import init.debug_led as board_led
+        import init_debug_led as board_led
 
 
  
