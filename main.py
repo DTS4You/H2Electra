@@ -7,27 +7,6 @@ from machine import Pin, Timer                              # RaspberryPi Pico20
 from libs.module_init import Global_Module as MyModule
 import time
 
-# 01 -> Next OBP              -> 1/12                         -> 11
-# 02 -> Fraunhofer OBP        -> 1/11                         -> 10
-# 03 -> GeReLEO Smart         -> 1/07                         -> 06
-#-----
-# 04 -> Flex INET             -> 1/04 , 1/05                  -> 03 , 04
-#------
-# 05 -> Flex OMUX             -> 1/03 , 1/06                  -> 02 , 05
-#-----
-# 06 -> 300W FPM              -> 1/01 , 1/02                  -> 00 , 01
-#------
-# 07 -> 250W FPM              -> 1/08 , 1/09                  -> 07 , 08
-# 08 -> PLIU                  -> 1/10                         -> 09
-# 09 -> H2KAR Reflektor       -> 2/05 , 3/05                  -> 16 , 24
-# 10 -> HEMPT                 -> 2/08 , 3/08                  -> 19 , 27
-# 11 -> Reaktionsräder        -> 2/06 , 3/06                  -> 17 , 25
-# 12 -> Batterie              -> 4/02 , 4/03                  -> 29 , 30
-# 13 -> Apogäums-Triebwerk    -> 4/01                         -> 28
-# 14 -> Tank (Xe)             -> 2/03 , 3/03                  -> 14 , 22
-# 15 -> Tank (MMH/MON)        -> 2/01 , 2/02 , 3/01 , 3/02    -> 12 , 13 , 20 , 21
-# 16 -> Sternsensor           -> 5/01 , 6/01                  -> 31 , 32
-
 pix_array_01 = [11]
 pix_array_02 = [10]
 pix_array_03 = [ 6]
