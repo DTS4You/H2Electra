@@ -2,7 +2,7 @@
 # ### I2C Portscan                                                          ###
 # #############################################################################
 
-import machine
+import machine      # type: ignore
 
 # I2C -> SCL = Pin(21), SDA = Pin(20)
 
