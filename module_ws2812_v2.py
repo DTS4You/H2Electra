@@ -120,13 +120,17 @@ def setup_ws2812():
 
     ledstate = LedState()
     
-    strip_obj.append(module_neopixel.Neopixel(mg.numpix_1, 0, 6, "GRB"))
-    strip_obj.append(module_neopixel.Neopixel(mg.numpix_2, 1, 7, "GRB"))
-    strip_obj.append(module_neopixel.Neopixel(mg.numpix_3, 2, 8, "GRB"))
-    strip_obj.append(module_neopixel.Neopixel(mg.numpix_4, 3, 9, "GRB"))
-    strip_obj.append(module_neopixel.Neopixel(mg.numpix_5, 4, 2, "GRB"))
-    strip_obj.append(module_neopixel.Neopixel(mg.numpix_6, 5, 3, "GRB"))
+    print("create strip_obj")
+
+    strip_obj.append(module_neopixel.Neopixel(mg.numpix_1, 0, 2, "GRB"))
+    strip_obj.append(module_neopixel.Neopixel(mg.numpix_2, 1, 3, "GRB"))
+    strip_obj.append(module_neopixel.Neopixel(mg.numpix_3, 2, 4, "GRB"))
+    strip_obj.append(module_neopixel.Neopixel(mg.numpix_4, 3, 5, "GRB"))
+    strip_obj.append(module_neopixel.Neopixel(mg.numpix_5, 4, 6, "GRB"))
+    strip_obj.append(module_neopixel.Neopixel(mg.numpix_6, 5, 7, "GRB"))
     
+    print("create led_obj")
+
     led_obj.append(Ledsegment(strip_obj[mg.seg_01_strip], mg.seg_01_start, mg.seg_01_count))      #  0, 0  (01) -> LED Position -> # 01 #
     led_obj.append(Ledsegment(strip_obj[mg.seg_02_strip], mg.seg_02_start, mg.seg_02_count))      #  0, 1  (02) -> LED Position -> # 02 #
     led_obj.append(Ledsegment(strip_obj[mg.seg_03_strip], mg.seg_03_start, mg.seg_03_count))      #  0, 2  (03) -> LED Position -> # 03 #
@@ -345,21 +349,18 @@ def main():
     print("WS2812 -> Run self test")
     self_test()
     
-    print("WS2812 -> Test -> LED")
-    test_led(0,0)
+    #print("WS2812 -> Test -> LED")
+    #test_led(0,0)
 
-    #print("WS2812 -> Object Test")
-    #do_obj_on_off_def_off()
+    print("WS2812 -> Object Test")
+    do_obj_on_off_def_off()
 
     #print("WS2812 -> LED-Dot-Test")
     #do_dot_test()
 
-    #print("WS2812 -> Segment-Blink")
-    #set_led_obj(0,"blink")
-    #for i in range(0,10):
-    #    do_blink()
-    #    time.sleep(0.5)
-    #set_led_obj(0,"def")    
+    print("WS2812 -> Segment-Blink")
+    do_blink_test()
+        
     
 
     print("WS2812 -> End of Program !!!")

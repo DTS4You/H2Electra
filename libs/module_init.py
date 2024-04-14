@@ -25,51 +25,51 @@ class Global_WS2812:
 
     seg_01_strip        = 0             #  1. Ledsegment -> Stripe      # 1. Set -> 1. Segment -> 24 LEDs
     seg_01_start        = 0             #  1. Ledsegment -> Start
-    seg_01_count        = 24            #  1. Ledsegment -> Anzahl
+    seg_01_count        = 18            #  1. Ledsegment -> Anzahl
 
     seg_02_strip        = 0             #  2. Ledsegment -> Stripe      # 1. Set -> 2. Segment
-    seg_02_start        = 24            #  2. Ledsegment -> Start
-    seg_02_count        = 24            #  2. Ledsegment -> Anzahl
+    seg_02_start        = 18            #  2. Ledsegment -> Start
+    seg_02_count        = 18            #  2. Ledsegment -> Anzahl
 
     seg_03_strip        = 0             #  3. Ledsegment -> Stripe      # 1. Set -> 3. Segment
-    seg_03_start        = 48            #  3. Ledsegment -> Start
-    seg_03_count        = 24            #  3. Ledsegment -> Anzahl
+    seg_03_start        = 36            #  3. Ledsegment -> Start
+    seg_03_count        = 18            #  3. Ledsegment -> Anzahl
     
     seg_04_strip        = 1             #  4. Ledsegment -> Stripe      # 2. Set -> 1. Segment
     seg_04_start        = 0             #  4. Ledsegment -> Start
-    seg_04_count        = 24            #  4. Ledsegment -> Anzahl
+    seg_04_count        = 18            #  4. Ledsegment -> Anzahl
 
     seg_05_strip        = 1             #  5. Ledsegment -> Stripe      # 2. Set -> 2. Segment
-    seg_05_start        = 24            #  5. Ledsegment -> Start
-    seg_05_count        = 24            #  5. Ledsegment -> Anzahl
+    seg_05_start        = 18            #  5. Ledsegment -> Start
+    seg_05_count        = 18            #  5. Ledsegment -> Anzahl
     
     seg_06_strip        = 1             #  6. Ledsegment -> Stripe      # 2. Set -> 3. Segment
-    seg_06_start        = 48            #  6. Ledsegment -> Start
-    seg_06_count        = 24            #  6. Ledsegment -> Anzahl
+    seg_06_start        = 36            #  6. Ledsegment -> Start
+    seg_06_count        = 18            #  6. Ledsegment -> Anzahl
     
     seg_07_strip        = 2             #  7. Ledsegment -> Stripe      # 3. Set -> 1. Segment
     seg_07_start        = 0             #  7. Ledsegment -> Start
-    seg_07_count        = 24            #  7. Ledsegment -> Anzahl
+    seg_07_count        = 18            #  7. Ledsegment -> Anzahl
 
     seg_08_strip        = 2             #  8. Ledsegment -> Stripe      # 3. Set -> 2. Segment
-    seg_08_start        = 24            #  8. Ledsegment -> Start
-    seg_08_count        = 48            #  8. Ledsegment -> Anzahl
+    seg_08_start        = 18            #  8. Ledsegment -> Start
+    seg_08_count        = 18            #  8. Ledsegment -> Anzahl
     
     seg_09_strip        = 2             #  9. Ledsegment -> Stripe      # 3. Set -> 3. Segment
-    seg_09_start        = 48            #  9. Ledsegment -> Start
-    seg_09_count        = 24            #  9. Ledsegment -> Anzahl
+    seg_09_start        = 36            #  9. Ledsegment -> Start
+    seg_09_count        = 18            #  9. Ledsegment -> Anzahl
 
     seg_10_strip        = 3             # 10. Ledsegment -> Stripe      # 4. Set -> 1. Segment
     seg_10_start        = 0             # 10. Ledsegment -> Start
-    seg_10_count        = 24            # 10. Ledsegment -> Anzahl
+    seg_10_count        = 18            # 10. Ledsegment -> Anzahl
     
     seg_11_strip        = 3             # 11. Ledsegment -> Stripe      # 4. Set -> 2. Segment
-    seg_11_start        = 24            # 11. Ledsegment -> Start
-    seg_11_count        = 48            # 11. Ledsegment -> Anzahl
+    seg_11_start        = 18            # 11. Ledsegment -> Start
+    seg_11_count        = 18            # 11. Ledsegment -> Anzahl
 
     seg_12_strip        = 3             # 12. Ledsegment -> Stripe      # 4. Set -> 3. Segment
-    seg_12_start        = 48            # 12. Ledsegment -> Start
-    seg_12_count        = 24            # 12. Ledsegment -> Anzahl
+    seg_12_start        = 36            # 12. Ledsegment -> Start
+    seg_12_count        = 18            # 12. Ledsegment -> Anzahl
 
     # *************************************************************************
 
