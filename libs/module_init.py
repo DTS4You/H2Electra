@@ -19,43 +19,43 @@ class Global_WS2812:
     numpix_5            = 12            # Anzahl LEDs im 5. Stripe
     numpix_6            = 12            # Anzahl LEDs im 6. Stripe
 
-    seg_01_strip        = 0             #  1. Ledsegment -> Stripe      # 1. LED hinterer Teil
+    seg_01_strip        = 0             #  1. Ledsegment -> Stripe      # 1. Ring -> 1. Segment
     seg_01_start        = 0             #  1. Ledsegment -> Start
     seg_01_count        = 1             #  1. Ledsegment -> Anzahl
 
-    seg_02_strip        = 0             #  2. Ledsegment -> Stripe      # 2. LED hinterer Teil
+    seg_02_strip        = 0             #  2. Ledsegment -> Stripe      # 1. Ring -> 2. Segment
     seg_02_start        = 1             #  2. Ledsegment -> Start
     seg_02_count        = 1             #  2. Ledsegment -> Anzahl
 
-    seg_03_strip        = 0             #  3. Ledsegment -> Stripe      # 3. LED hinterer Teil
+    seg_03_strip        = 0             #  3. Ledsegment -> Stripe      # 1. Ring -> 3. Segment
     seg_03_start        = 2             #  3. Ledsegment -> Start
     seg_03_count        = 1             #  3. Ledsegment -> Anzahl
     
-    seg_04_strip        = 0             #  4. Ledsegment -> Stripe      # 4. LED hinterer Teil
+    seg_04_strip        = 0             #  4. Ledsegment -> Stripe      # 1. Ring -> 5. Segment
     seg_04_start        = 3             #  4. Ledsegment -> Start
     seg_04_count        = 1             #  4. Ledsegment -> Anzahl
 
-    seg_05_strip        = 0             #  5. Ledsegment -> Stripe      # 5. LED hinterer Teil
+    seg_05_strip        = 0             #  5. Ledsegment -> Stripe      # 1. Ring -> 6. Segment
     seg_05_start        = 4             #  5. Ledsegment -> Start
     seg_05_count        = 1             #  5. Ledsegment -> Anzahl
     
-    seg_06_strip        = 0             #  6. Ledsegment -> Stripe      # 6. LED hinterer Teil
+    seg_06_strip        = 0             #  6. Ledsegment -> Stripe      # 1. Ring -> 7. Segment
     seg_06_start        = 5             #  6. Ledsegment -> Start
     seg_06_count        = 1             #  6. Ledsegment -> Anzahl
     
-    seg_07_strip        = 0             #  7. Ledsegment -> Stripe      # 7. LED hinterer Teil
+    seg_07_strip        = 0             #  7. Ledsegment -> Stripe      # 1. Ring -> 8. Segment
     seg_07_start        = 6             #  7. Ledsegment -> Start
     seg_07_count        = 1             #  7. Ledsegment -> Anzahl
 
-    seg_08_strip        = 0             #  8. Ledsegment -> Stripe      # 8. LED hinterer Teil
+    seg_08_strip        = 0             #  8. Ledsegment -> Stripe      # 2. Ring -> 1. Segment
     seg_08_start        = 7             #  8. Ledsegment -> Start
     seg_08_count        = 1             #  8. Ledsegment -> Anzahl
     
-    seg_09_strip        = 0             #  9. Ledsegment -> Stripe      # 9. LED hinterer Teil
+    seg_09_strip        = 0             #  9. Ledsegment -> Stripe      # 2. Ring -> 2. Segment
     seg_09_start        = 8             #  9. Ledsegment -> Start
     seg_09_count        = 1             #  9. Ledsegment -> Anzahl
 
-    seg_10_strip        = 0             # 10. Ledsegment -> Stripe      #10. LED hinterer Teil
+    seg_10_strip        = 0             # 10. Ledsegment -> Stripe      # 2. Ring -> 3. Segment
     seg_10_start        = 9             # 10. Ledsegment -> Start
     seg_10_count        = 1             # 10. Ledsegment -> Anzahl
     

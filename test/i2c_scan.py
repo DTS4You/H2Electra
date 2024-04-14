@@ -1,6 +1,10 @@
-import machine
+# #############################################################################
+# ### I2C Portscan                                                          ###
+# #############################################################################
 
-# I2C SCL = Pin(21), SDA = Pin(20)
+import machine      # type: ignore
+
+# I2C -> SCL = Pin(21), SDA = Pin(20)
 
 I2C_SDA_PIN = 20
 I2C_SCL_PIN = 21
@@ -19,3 +23,5 @@ else:
 
 for device in devices:
     print('Decimal address:', device, ", Hex address: ", hex(device))
+
+# #############################################################################
