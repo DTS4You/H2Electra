@@ -49,14 +49,19 @@ class GPIO:
 
 # -----------------------------------------------------------------------------
 def main():
+
+    print("=== Start Main ===")
     gpio = GPIO()
 
-    while True:
+    for i in range(0,8):
+        gpio.set_output(i, True)
+        time.sleep(0.3)
+    
+    for i in range(0,8):
+        gpio.set_output(i, False)
+        time.sleep(0.3)
 
-        if gpio.get_button():
-            print("On")
-        time.sleep(0.03)
-
+    print("=== End Main ===")
 
 # ------------------------------------------------------------------------------
 # --- Main
