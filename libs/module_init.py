@@ -19,6 +19,10 @@ class Global_WS2812:
     numpix_5            = 96            # Anzahl LEDs im 5. Stripe
     numpix_6            = 96            # Anzahl LEDs im 6. Stripe
 
+    # #########################################################################
+    # === Start of Stripes ===
+    # #########################################################################
+
     seg_01_strip        = 0             #  1. Ledsegment -> Stripe      # 1. Set -> 1. Segment -> 24 LEDs
     seg_01_start        = 0             #  1. Ledsegment -> Start
     seg_01_count        = 24            #  1. Ledsegment -> Anzahl
@@ -77,7 +81,9 @@ class Global_WS2812:
     seg_14_start        = 0             # 14. Ledsegment -> Start
     seg_14_count        = 96            # 14. Ledsegment -> Anzahl
     
-    # ##########################################################################
+    # #########################################################################
+    # === End of Stripes ===
+    # #########################################################################
 
     seg_15_strip        = 1             # 15. Ledsegment -> Stripe      # 3. LED linker Teil
     seg_15_start        = 2             # 15. Ledsegment -> Start
