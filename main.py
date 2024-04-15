@@ -1,7 +1,7 @@
 ######################################################
 ### Main-Program                                   ###
 ### Projekt: H2Electra                             ###
-### Version: 1.00                                  ###
+### Version: 1.01                                  ###
 ######################################################
 from machine import Pin, Timer                              # RaspberryPi Pico2040 -> Hardware-Library
 from libs.module_init import Global_Module as MyModule
