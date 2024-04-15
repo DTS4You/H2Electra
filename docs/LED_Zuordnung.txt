@@ -2,14 +2,13 @@
 
 Ausgang:
 
-1   Rumpf vorne links
-2   Rumpf vorne rechts
-3   Rumpf hinten links
-4   Rumpf hinten rechts
-
-5   Bedientablet 1. Ring
-6   Bedientablet 2. Ring
-7   Bedientablet 3. Ring
-8   Bedientablet 4. Ring
+1   frei
+2   frei
+3   Bedientablet 1. Ring
+4   Bedientablet 2. Ring
+5   Bedientablet 3. Ring
+6   Bedientablet 4. Ring
+7   Rumpf vorne links -> hinten links
+8   Rumpf vorne rechts -> hinten rechts
 
 ###############################################################################
