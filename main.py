@@ -19,15 +19,15 @@ pix_array_07 = [10,11,12]       # Batterie
 pix_array_08 = []               # Gasturbine
 pix_array_09 = [ 6]             # Generator
 pix_array_10 = []
-pix_array_11 = [ 7]
-pix_array_12 = [ 8]
-pix_array_13 = [ 9]
+pix_array_11 = []
+pix_array_12 = []
+pix_array_13 = []
 pix_array_14 = []
 pix_array_15 = []
 pix_array_16 = []
-pix_array_21 = [ 7]
-pix_array_22 = [ 8]
-pix_array_23 = [ 9]
+pix_array_21 = [ 7]             # Brennstoffzelle (PEMFC)
+pix_array_22 = [ 8]             # Brennstoffzelle (SOFC-Planar)
+pix_array_23 = [ 9]             # Brennstoffzelle (SOFC-Tubular)
 
 obj_offset = -1          # Offset bei Zählung ab 1 = -1
 
