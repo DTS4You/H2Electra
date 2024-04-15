@@ -73,8 +73,8 @@ def main():
                             #print("def")
                             MyWS2812.do_all_def()
                     if MyDecode.get_cmd_2() == "obj":
-                        #print("obj")
-                        #print(MyDecode.get_value_1())
+                        print("obj")
+                        print(MyDecode.get_value_1())
                         #print(segment_map[MyDecode.get_value_1()])
                         MyWS2812.do_all_off()
                         if MyDecode.get_value_1() == 1:
