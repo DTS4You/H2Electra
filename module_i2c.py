@@ -46,6 +46,13 @@ class GPIO:
         self.set_output(0, not self.blink_state)
         return self.state
 
+def i2c_setup():
+    
+    global gpio
+    gpio = GPIO()
+
+def i2c_write(num, value):
+    gpio.set_output(num, value)
 
 # -----------------------------------------------------------------------------
 def main():

@@ -193,6 +193,15 @@ if __name__ == "__main__":
         ### Test ###
         #print("Serial-Con -> Test")
         #MySerial.sercon_write_out("Start Test")
+    
+    if MyModule.inc_i2c:
+        print("I2C_MCP23017 -> Load-Module")
+        import module_i2c as MyGPIO
+        print("I2C -> Setup")
+        MyGPIO.i2c_setup()
+        ### Test ###
+        print("I2C -> SetOutput")
+        MyGPIO.i2c_write(0,True)
 
     main()      # Start Main $$$
 
