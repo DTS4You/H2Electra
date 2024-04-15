@@ -54,6 +54,11 @@ def i2c_setup():
 def i2c_write(num, value):
     gpio.set_output(num, value)
 
+def i2c_all_off():
+    for i in range(0,8):
+        gpio.set_output(i, False)
+        time.sleep(0.02)
+
 # -----------------------------------------------------------------------------
 def main():
 

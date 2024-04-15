@@ -45,6 +45,7 @@ def main():
     blink_couter = 0
     
     MyWS2812.do_all_def()	# Alle Leds auf Default-Wert
+    MyGPIO.i2c_all_off()    # Alle Ausgänge auf "AUS"
        
     while MySerial.sercon_read_flag():
 
@@ -163,6 +164,15 @@ if __name__ == "__main__":
 
     print("___Start_Program___")
 
+    if MyModule.inc_i2c:
+        #print("I2C_MCP23017 -> Load-Module")
+        import module_i2c as MyGPIO
+        #print("I2C -> Setup")
+        MyGPIO.i2c_setup()
+        ### Test ###
+        #print("I2C -> SetOutput")
+        #MyGPIO.i2c_write(0,True)
+
     if MyModule.inc_ws2812:
         #print("WS2812 -> Load-Module")
         import module_ws2812_v2 as MyWS2812         # Modul WS2812  -> WS2812-Ansteuerung
@@ -194,14 +204,6 @@ if __name__ == "__main__":
         #print("Serial-Con -> Test")
         #MySerial.sercon_write_out("Start Test")
     
-    if MyModule.inc_i2c:
-        print("I2C_MCP23017 -> Load-Module")
-        import module_i2c as MyGPIO
-        print("I2C -> Setup")
-        MyGPIO.i2c_setup()
-        ### Test ###
-        print("I2C -> SetOutput")
-        MyGPIO.i2c_write(0,True)
 
     main()      # Start Main $$$
 
