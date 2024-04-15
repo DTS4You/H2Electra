@@ -19,15 +19,15 @@ pix_array_07 = [10,11,12]       # Batterie
 pix_array_08 = []               # Gasturbine
 pix_array_09 = [ 6]             # Generator
 pix_array_10 = []
-pix_array_11 = []
-pix_array_12 = []
-pix_array_13 = []
+pix_array_11 = [ 7]
+pix_array_12 = [ 8]
+pix_array_13 = [ 9]
 pix_array_14 = []
 pix_array_15 = []
 pix_array_16 = []
-pix_array_21 = [10]
-pix_array_22 = [11]
-pix_array_23 = [12]
+pix_array_21 = [ 7]
+pix_array_22 = [ 8]
+pix_array_23 = [ 9]
 
 obj_offset = -1          # Offset bei Zählung ab 1 = -1
 
@@ -127,6 +127,12 @@ def main():
                                 MyWS2812.set_led_obj(i + obj_offset, MyDecode.get_value_2())
                         if MyDecode.get_value_1() == 21:
                             for i in pix_array_21:
+                                MyWS2812.set_led_obj(i + obj_offset, MyDecode.get_value_2())
+                        if MyDecode.get_value_1() == 22:
+                            for i in pix_array_22:
+                                MyWS2812.set_led_obj(i + obj_offset, MyDecode.get_value_2())
+                        if MyDecode.get_value_1() == 23:
+                            for i in pix_array_23:
                                 MyWS2812.set_led_obj(i + obj_offset, MyDecode.get_value_2())
 
                         #MyWS2812.set_led_obj(MyDecode.get_value_1(), MyDecode.get_value_2())
