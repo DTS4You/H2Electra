@@ -3,7 +3,7 @@
 # ### V 0.11
 # #############################################################################
 from machine import Pin, I2C
-from lib.mcp23017 import MCP23017
+from libs.mcp23017 import MCP23017
 import time
 
 
