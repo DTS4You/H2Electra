@@ -343,6 +343,8 @@ def set_led_obj(obj,state):
 
 def main():
     
+    print("WS2812 -> Start of Program !!!")
+
     print("WS2812 -> Setup")
     setup_ws2812()
         
